@@ -31,10 +31,14 @@ st.markdown("""
         --text-color: #E0E6ED;
     }
 
-    .main {
+    [data-testid="stAppViewContainer"] {
         background-color: var(--bg-color);
         color: var(--text-color);
         font-family: 'Inter', sans-serif;
+    }
+
+    [data-testid="stHeader"] {
+        background-color: rgba(0,0,0,0);
     }
 
     [data-testid="stSidebar"] {
