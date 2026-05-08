@@ -124,6 +124,23 @@ st.markdown("""
         border: none !important;
         width: 100%;
     }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+        .metric-value {
+            font-size: 24px !important;
+        }
+        .metric-card {
+            padding: 15px !important;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 1.8rem !important;
+        }
+        .chart-container {
+            padding: 10px !important;
+        }
+    }
 </style>
 """, unsafe_allow_html=True)
 
